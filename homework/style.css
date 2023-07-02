@@ -1,0 +1,274 @@
+
+.jumpman-container{
+    height: 30px;
+    background: whitesmoke; 
+    position: relative; 
+    align-items: flex-end;
+}
+
+
+.jumpman-container .jumpman-logo img{
+    width: 20px;
+    height: 20px;
+    position: absolute; 
+    top: 50%; /* Adjust the percentage value as needed */
+    left: 3.3%; /* Adjust the percentage value as needed */
+    transform: translate(-50%, -50%);
+    
+}
+
+.jumpman-container .flex-container-jumpman {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute; 
+    top: 50%; /* Adjust the percentage value as needed */
+    left: 89%; /* Adjust the percentage value as needed */
+    transform: translate(-50%, -50%);
+} 
+
+.flex-container-jumpman > div {
+    margin-left: 5px; /* Adjust the percentage value as needed */
+    margin-right: 10px; /* Adjust the percentage value as needed */
+}
+
+.flex-container-jumpman input[type="button"] {
+    font-size: 12px; /* Adjust the font size value as needed */
+}
+
+.nike-container{
+    height: 70px;
+    background: white;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nike-container .nike-logo img{
+    width: 70px;
+    height: 70px;
+    position: absolute; 
+    top: 50%; /* Adjust the percentage value as needed */
+    left: 4.4%; /* Adjust the percentage value as needed */
+    transform: translate(-50%, -50%);
+    
+}
+
+.hoverable-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+    
+}
+
+.dropdown {
+    position: relative;
+    margin-right: 10px;
+}
+
+.dropbtn {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    min-width: 160px;
+    font-size: 14px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content p:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*###################################################################################*/
+
+.button-container {
+    display: inline-flex;
+    position: absolute;
+    left: 87.5%;
+    transform: translateX(-50%);
+}
+
+.button-container input[type="text"] {
+    display: inline-flex;
+    position: relative;
+    border:1px solid rgb(0, 0, 0);
+    top: 50%; /* Adjust the percentage value as needed */
+    left: 48%; /* Adjust the percentage value as needed */
+    transform: translate(-50%, -50%);
+}
+
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0%;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.searchInputText {
+    position: relative;
+    top: 50%; /* Adjust the percentage value as needed */
+    left: 3.3%; /* Adjust the percentage value as needed */
+    transform: translate(-50%, -50%);
+}
+
+.free-delivery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.free-delivery-container h1 {
+    font-size: 25px; /* adjust the font size as desired */
+    margin: 5px 0; /* adjust the margin as desired */
+}
+
+.free-delivery-container p {
+    font-size: 15px; /* adjust the font size as desired */
+    margin: 5px 0; /* adjust the margin as desired */
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px; /* set the height as desired */
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1519,c_limit/fad0ec9c-dc00-4d74-a0b2-f352cbdeb9d6/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+
+}
+
+.middle-container-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.middle-container .middle-container-text h1 {
+    font-size: 75px; /* adjust the font size as desired */
+    font-weight: bold;
+    margin: 5px 0; /* adjust the margin as desired */
+}
+
+.middle-container .middle-container-text p {
+    font-size: 18px; /* adjust the font size as desired */
+    margin: 5px 0; /* adjust the margin as desired */
+}
+
+.middle-container .middle-container-buttons {
+    display: flex;
+    
+
+} 
+
+.middle-container-buttons div {
+    flex: 1;
+    margin: 0 8px; /* adjust the margin as desired */
+}
+
+
+.middle-container-buttons form {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-container-buttons input[type="button"] {
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size:  23px;
+    cursor: pointer;
+    border-radius: 20%; /* make the button oval-shaped */
+}
+
+
+.bottom-container {
+    position: relative;
+    margin-top: 200px; 
+}
+
+.bottom-container .bottom-container-image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container-image img {
+    width: 100%; 
+    max-height: 750px; 
+    object-fit: contain; 
+} 
+
+.fix-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.fix-container h1 {
+    margin: 0;
+    padding: 20px; /* Add padding for spacing */
+    background-color: rgb(130, 117, 117); /* Add background color for contrast */
+    font-size:  20px;
+    font-style: italic;
+
+}
