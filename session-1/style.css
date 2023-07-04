@@ -1,0 +1,369 @@
+
+.jumpman-container{
+    height: 30px;
+    background: whitesmoke; 
+    position: relative; 
+    align-items: flex-end;
+    border:2px solid rgb(0, 0, 0);
+}
+
+
+.jumpman-container .jumpman-logo img{
+    width: 20px;
+    height: 20px;
+    position: absolute; 
+    top: 50%; 
+    left: 3.3%; 
+    transform: translate(-50%, -50%);
+    border:2px solid rgb(0, 0, 0);
+    
+}
+
+.jumpman-container .flex-container-jumpman {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute; 
+    top: 50%; 
+    left: 89%; 
+    transform: translate(-50%, -50%);
+    border:2px solid rgb(0, 0, 0);
+} 
+
+.flex-container-jumpman > div {
+    margin-left: 5px; 
+    margin-right: 10px; 
+}
+
+.flex-container-jumpman input[type="button"] {
+    font-size: 12px; 
+    border:2px solid rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.nike-container{
+    height: 70px;
+    background: white;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.nike-container .nike-logo img{
+    width: 70px;
+    height: 70px;
+    position: absolute; 
+    top: 50%;
+    left: 4.4%; 
+    transform: translate(-50%, -50%);
+    border:2px solid rgb(0, 0, 0);
+    
+}
+
+.hoverable-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border:2px solid rgb(0, 0, 0);
+    
+}
+
+.dropdown {
+    position: relative;
+    margin-right: 0px;
+    border:2px solid rgb(249, 0, 0);
+}
+
+.dropbtn {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border:2px solid rgb(0, 0, 0);
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    min-width: 160px;
+    font-size: 14px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border:2px solid rgb(3, 193, 38);
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border:2px solid rgb(0, 0, 0);
+    
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.dropdown-content p:hover {
+    background-color: #ddd;
+    border:2px solid rgb(255, 0, 221);
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border:2px solid rgb(0, 0, 0);
+}
+
+
+
+.button-container {
+    display: inline-flex;
+    position: absolute;
+    left: 87.5%;
+    transform: translateX(-50%);
+    border:2px solid rgb(0, 0, 0);
+}
+
+.button-container input[type="text"] {
+    display: inline-flex;
+    position: relative;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border:2px solid rgb(0, 0, 0);
+}
+
+
+.button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0%;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.searchInputText {
+    position: relative;
+    top: 50%;
+    left: 3.3%;
+    transform: translate(-50%, -50%);
+    border:2px solid rgb(0, 0, 0);
+}
+
+.free-delivery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.free-delivery-container h1 {
+    font-size: 25px;
+    margin: 5px 0;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.free-delivery-container p {
+    font-size: 15px;
+    margin: 5px 0;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1519,c_limit/fad0ec9c-dc00-4d74-a0b2-f352cbdeb9d6/nike-just-do-it.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border:2px solid rgb(0, 0, 0);
+
+}
+
+.middle-container-text {
+    text-align: center;
+    margin-bottom: 20px;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.middle-container .middle-container-text h1 {
+    font-size: 75px;
+    font-weight: bold;
+    margin: 5px 0; 
+    border:2px solid rgb(0, 0, 0);
+}
+
+.middle-container .middle-container-text p {
+    font-size: 18px;
+    margin: 5px 0; 
+    border:2px solid rgb(0, 0, 0);
+}
+
+.middle-container .middle-container-buttons {
+    display: flex;
+    border:2px solid rgb(0, 0, 0);
+} 
+
+.middle-container-buttons div {
+    flex: 1;
+    margin: 0 8px;
+    border:1px solid rgb(0, 0, 0);
+
+}
+
+
+.middle-container-buttons form {
+    display: flex;
+    justify-content: center;
+    border:2px solid rgb(0, 0, 0);
+
+}
+
+.middle-container-buttons input[type="button"] {
+    background-color: #000000;
+    border:2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size:  23px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+
+.bottom-container {
+    position: relative;
+    border:2px solid rgb(255, 0, 212);
+    margin-top: 70px;
+    height: 1500px;
+}
+
+.bottom-container .bottom-container-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid rgb(0, 21, 250);
+    width: 93%;
+    margin: 0 auto; 
+    
+
+}
+
+.bottom-container-image img {
+    width: 100%; 
+    max-height: 900px; 
+    object-fit: contain; 
+    border:2px solid rgb(250, 0, 0); 
+} 
+
+.bottom-container .bottom-container-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex start;
+    flex-direction: column;
+    border:2px solid rgb(15, 255, 2);
+}
+
+.bottom-container-text h1 {
+    position: relative;
+    border:2px solid rgb(0, 0, 0);
+    display: inline-flex;
+    font-size:  70px;
+    margin: 5px; 
+}
+
+.bottom-container-text .never-before h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.bottom-container-text .forever-after h1 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+
+.bottom-container-text .bottom-lorem p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border:2px solid rgb(0, 0, 0);
+} 
+
+
+.fix-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border:2px solid rgb(0, 0, 0);
+}
+
+.fix-container h1 {
+    margin: 0;
+    padding: 20px; 
+    background-color: rgb(130, 117, 117); 
+    font-size:  20px;
+    font-style: italic;
+    border:2px solid rgb(0, 0, 0);
+
+}
+
+
